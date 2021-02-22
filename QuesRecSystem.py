@@ -17,10 +17,10 @@ class recommendations:
 
     def sql_conn(self):
         # Mysql Server connection
-        mysql_conn = pymysql.connect(host='35.230.132.104',
-                                    database='low_carb_program_v2',
-                                    user='krishP',
-                                    password='s4lv4d0r',)
+        mysql_conn = pymysql.connect(host='******',
+                                    database='*******',
+                                    user='*****',
+                                    password='*****',)
 
         return mysql_conn   
        
